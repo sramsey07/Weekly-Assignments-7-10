@@ -15,4 +15,4 @@ while True:
         else:
             print(f"Line {line_number}: {lines[line_number - 1]}")
     except ValueError:
-        print("Invalid input. Please enter an integer.")
+        print("Invalid input. Please enter a valid number.")
