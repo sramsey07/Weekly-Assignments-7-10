@@ -7,7 +7,7 @@ print(f"{number_lines} lines in file '{filename}'")
 
 while True:
     try:
-        line_number = int(input("Enter line number: "))
+        line_number = int(input("Enter the line number: "))
         if line_number == 0:
             break
         elif line_number < 1 or line_number > number_lines:
